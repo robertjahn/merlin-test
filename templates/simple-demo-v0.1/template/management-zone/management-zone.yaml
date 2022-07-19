@@ -1,0 +1,6 @@
+config:
+- sample2: sample2.json
+sample2:
+- filter: "{{appname}}"
+- name: "{{teamname}}"
+

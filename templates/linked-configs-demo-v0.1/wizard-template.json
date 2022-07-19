@@ -1,0 +1,23 @@
+{
+    "id": "problem-notification-demo-v0.1",
+    "friendlyName": "Demo template - problem notification",
+    "description": "Creates a new problem notification + alerting profile.",
+    "parameters": [
+      {
+        "id": "teamname",
+        "friendlyName": "Team Name",
+        "description": "Team that owns the mangement zone, used as name of the configuration.",
+        "type": "text",
+        "optional": false
+      },{
+      "id": "appname",
+      "friendlyName": "Application Name",
+      "description": "Application initial name to use as 'starts with' filter to detect the services.",
+      "type": "text",
+      "optional": false
+    }
+  ],
+    "summary": [
+      "Management Zone - A management zone will be created"
+    ]
+  }

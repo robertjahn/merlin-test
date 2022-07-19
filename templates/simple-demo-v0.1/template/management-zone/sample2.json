@@ -1,0 +1,28 @@
+{
+ "description": null,
+ "dimensionalRules": [],
+ "entitySelectorBasedRules": [],
+ "name": "{{.name}}",
+ "rules": [
+  {
+   "conditions": [
+    {
+     "comparisonInfo": {
+      "caseSensitive": true,
+      "negate": false,
+      "operator": "BEGINS_WITH",
+      "type": "STRING",
+      "value": "{{.filter}}"
+     },
+     "key": {
+      "attribute": "SERVICE_AKKA_ACTOR_SYSTEM",
+      "type": "STATIC"
+     }
+    }
+   ],
+   "enabled": true,
+   "propagationTypes": [],
+   "type": "SERVICE"
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "Version": "\"0.0.1\"",
+  "Templates": [
+    {
+      "Id": "simple-demo-v0.1",
+      "Name": "Demo template - Management zone",
+      "Description": "This is a sample template. You can use it as a base to develop other templates",
+      "IsBestPractice": true
+    },
+    {
+      "Id": "problem-notification-demo-v0.1",
+      "Name": "Demo template - problem notification",
+      "Description": "This is a sample template. You can use it as a base to develop other templates",
+      "IsBestPractice": true
+    }
+  ]
+}
